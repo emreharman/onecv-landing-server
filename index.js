@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3004
 
 //connect db
 mongoose.connect(
-    "mongodb+srv://emrehrmn:05101990emre.@cluster0.qdewo.mongodb.net/onecv-landing?retryWrites=true&w=majority",
+    "mongodb+srv://emrehrmn:05101990emre.@cluster0.qdewo.mongodb.net/project-class?retryWrites=true&w=majority",
     { useNewUrlParser: true, useUnifiedTopology: true },
     () => {
       app.listen(PORT, () =>
